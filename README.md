@@ -13,7 +13,7 @@ Uses turtlesim to show an example on how to broadcast transforms. To run it, use
 ### Part 2: Writing a TF2 Static Listener
 Uses turtlesim to show how a new turtle can follow an existing turtle through the use of TF transforms.
 
-![Turtles Swimming After Each Other](https://github.com/DH-Autonomy/tf2_tutorials/gif/tf2_listener.gif)
+![Turtles Swimming After Each Other](https://github.com/DH-Autonomy/tf2_tutorials/blob/main/gif/tf2_listener.gif)
 
 Steps to run:
 1. `ros2 run turtlesim turtlesim_node`
