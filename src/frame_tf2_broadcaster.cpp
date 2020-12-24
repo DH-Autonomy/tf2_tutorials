@@ -1,7 +1,7 @@
 #include <tf2_tutorials/frame_tf2_broadcaster.h>
 
 FrameTF2Broadcaster::FrameTF2Broadcaster() : 
-Node("frame_tf2_broadcaster")
+Node("frame_tf2_broadcaster"), rate(10.0)
 {
 	RCLCPP_INFO(this->get_logger(), "Initialized frame_tf2_broadcaster");
 	tfb = std::make_shared<tf2_ros::TransformBroadcaster>(this);

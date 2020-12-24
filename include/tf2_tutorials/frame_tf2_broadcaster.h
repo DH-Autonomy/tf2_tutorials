@@ -10,9 +10,9 @@ class FrameTF2Broadcaster : public rclcpp::Node
     std::shared_ptr<tf2_ros::TransformBroadcaster> tfb;
 	geometry_msgs::msg::TransformStamped transformStamped;
 	tf2::Quaternion q;
-	rclcpp::Rate rate(10.0);
+	rclcpp::Rate rate;
     void runFrameTF2Broadcaster();
     
     public:
-        FrameTF2Broadcaster(std::string input);
-}
+        FrameTF2Broadcaster();
+};
